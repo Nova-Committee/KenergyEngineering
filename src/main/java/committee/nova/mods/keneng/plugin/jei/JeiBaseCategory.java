@@ -1,4 +1,4 @@
-package ten3.plugin.jei;
+package committee.nova.mods.keneng.plugin.jei;
 
 import mezz.jei.api.gui.drawable.IDrawable;
 import mezz.jei.api.recipe.RecipeType;
@@ -7,8 +7,8 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.Container;
 import net.minecraft.world.item.crafting.Recipe;
-import ten3.TConst;
-import ten3.util.ComponentHelper;
+import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.util.ComponentHelper;
 
 public abstract class JeiBaseCategory<T extends Recipe<Container>> implements IRecipeCategory<T> {
 

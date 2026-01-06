@@ -1,15 +1,15 @@
-package ten3.plugin.jei.impl;
+package committee.nova.mods.keneng.plugin.jei.impl;
 
 import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;
 import mezz.jei.api.recipe.RecipeType;
-import ten3.TConst;
-import ten3.lib.client.element.ElementBurnLeft;
-import ten3.lib.client.element.ElementProgress;
-import ten3.lib.recipe.FormsCombinedRecipe;
-import ten3.plugin.jei.JeiCmCategory;
-import ten3.plugin.jei.TEJeiPlugins;
+import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.lib.client.element.ElementBurnLeft;
+import committee.nova.mods.keneng.lib.client.element.ElementProgress;
+import committee.nova.mods.keneng.lib.recipe.FormsCombinedRecipe;
+import committee.nova.mods.keneng.plugin.jei.JeiCmCategory;
+import committee.nova.mods.keneng.plugin.jei.TEJeiPlugins;
 
-import static ten3.lib.tile.CmScreen.handler;
+import static committee.nova.mods.keneng.lib.tile.CmScreen.handler;
 
 public class CategoryCompressor extends JeiCmCategory
 {

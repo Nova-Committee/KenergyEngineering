@@ -1,16 +1,13 @@
-package ten3.plugin.jei;
+package committee.nova.mods.keneng.plugin.jei;
 
 import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;
-import mezz.jei.api.gui.ingredient.IRecipeSlotTooltipCallback;
-import mezz.jei.api.gui.ingredient.IRecipeSlotView;
 import mezz.jei.api.recipe.RecipeIngredientRole;
 import mezz.jei.api.recipe.RecipeType;
-import net.minecraft.network.chat.Component;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.multiplayer.ClientLevel;
+import net.minecraft.core.RegistryAccess;
 import net.minecraft.world.Container;
 import net.minecraft.world.item.crafting.Recipe;
-import ten3.lib.recipe.FormsCombinedRecipe;
-
-import java.util.List;
 
 public abstract class JeiVanillaCategory<T extends Recipe<Container>> extends JeiCategory<T>
 {
@@ -28,8 +25,14 @@ public abstract class JeiVanillaCategory<T extends Recipe<Container>> extends Je
 
     public void output(int x, int y, int i, T recipe, IRecipeLayoutBuilder bd)
     {
+        Minecraft minecraft = Minecraft.getInstance();
+        ClientLevel level = minecraft.level;
+        if (level == null) {
+            throw new NullPointerException("level must not be null.");
+        }
+        RegistryAccess registryAccess = level.registryAccess();
         bd.addSlot(RecipeIngredientRole.OUTPUT, x + 1, y + 1)
-                .addItemStack(recipe.getResultItem().copy());
+                .addItemStack(recipe.getResultItem(registryAccess).copy());
     }
 
 }

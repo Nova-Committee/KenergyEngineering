@@ -1,43 +1,34 @@
-package ten3.plugin.jei;
+package committee.nova.mods.keneng.plugin.jei;
 
+import committee.nova.mods.keneng.plugin.jei.impl.*;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
-import mezz.jei.api.constants.VanillaTypes;
 import mezz.jei.api.forge.ForgeTypes;
 import mezz.jei.api.gui.handlers.IGlobalGuiHandler;
-import mezz.jei.api.ingredients.IIngredientHelper;
-import mezz.jei.api.ingredients.IIngredientRenderer;
 import mezz.jei.api.ingredients.IIngredientType;
-import mezz.jei.api.ingredients.subtypes.UidContext;
 import mezz.jei.api.recipe.RecipeType;
 import mezz.jei.api.registration.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.Rect2i;
-import net.minecraft.core.Registry;
-import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.Container;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.item.crafting.RecipeManager;
 import net.minecraft.world.item.crafting.SmeltingRecipe;
-import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.fluids.FluidStack;
-import org.jetbrains.annotations.Nullable;
-import ten3.TConst;
-import ten3.core.machine.useenergy.compressor.CompressorScreen;
-import ten3.core.machine.useenergy.indfur.IndfurScreen;
-import ten3.core.machine.useenergy.psionicant.PsionicantScreen;
-import ten3.core.machine.useenergy.pulverizer.PulverizerScreen;
-import ten3.core.machine.useenergy.refiner.RefinerScreen;
-import ten3.core.machine.useenergy.smelter.FurnaceScreen;
-import ten3.lib.recipe.FormsCombinedRecipe;
-import ten3.init.ItemInit;
-import ten3.init.RecipeInit;
-import ten3.lib.tile.CmScreenMachine;
+import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.core.machine.useenergy.compressor.CompressorScreen;
+import committee.nova.mods.keneng.core.machine.useenergy.indfur.IndfurScreen;
+import committee.nova.mods.keneng.core.machine.useenergy.psionicant.PsionicantScreen;
+import committee.nova.mods.keneng.core.machine.useenergy.pulverizer.PulverizerScreen;
+import committee.nova.mods.keneng.core.machine.useenergy.refiner.RefinerScreen;
+import committee.nova.mods.keneng.core.machine.useenergy.smelter.FurnaceScreen;
+import committee.nova.mods.keneng.lib.recipe.FormsCombinedRecipe;
+import committee.nova.mods.keneng.init.ItemInit;
+import committee.nova.mods.keneng.init.RecipeInit;
+import committee.nova.mods.keneng.lib.tile.CmScreenMachine;
 
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
@@ -52,8 +43,8 @@ public class TEJeiPlugins implements IModPlugin {
     public static RecipeType<FormsCombinedRecipe> inductionFurnace = getType(FormsCombinedRecipe.class, "induction_furnace");
     public static RecipeType<FormsCombinedRecipe> refiner = getType(FormsCombinedRecipe.class, "refiner");
 
-    private static<T> mezz.jei.api.recipe.RecipeType<T> getType(Class<T> recipe, String name) {
-        return mezz.jei.api.recipe.RecipeType.create(TConst.modid, name, recipe);
+    private static<T> RecipeType<T> getType(Class<T> recipe, String name) {
+        return RecipeType.create(TConst.modid, name, recipe);
     }
 
     @Override

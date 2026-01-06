@@ -1,12 +1,13 @@
-package ten3.plugin.jei;
+package committee.nova.mods.keneng.plugin.jei;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import mezz.jei.api.gui.drawable.IDrawable;
+import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import org.jetbrains.annotations.NotNull;
-import ten3.util.RenderHelper;
-import ten3.lib.client.element.ElementBase;
+import committee.nova.mods.keneng.util.RenderHelper;
+import committee.nova.mods.keneng.lib.client.element.ElementBase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,16 +51,14 @@ public class ProcessDraw implements IDrawable {
     }
 
     @Override
-    public void draw(@NotNull PoseStack matrixStack, int i, int i1)
-    {
-        RenderHelper.render(matrixStack, 0, 0, wi, hi, 256, 256, u, v, handler);
+    public void draw(@NotNull GuiGraphics guiGraphics, int xOffset, int yOffset) {
+        RenderHelper.render(guiGraphics, 0, 0, wi, hi, 256, 256, u, v, handler);
         List<Component> tooltip = new ArrayList<>();
         for(ElementBase e : elements)
         {
             e.update();
-            e.draw(matrixStack);
+            e.draw(guiGraphics);
             e.addToolTip(tooltip);
         }
-
     }
 }

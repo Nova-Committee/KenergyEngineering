@@ -1,4 +1,4 @@
-package ten3.plugin.jei.impl;
+package committee.nova.mods.keneng.plugin.jei.impl;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;
@@ -9,15 +9,15 @@ import mezz.jei.api.recipe.RecipeType;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.item.crafting.SmeltingRecipe;
-import ten3.TConst;
-import ten3.lib.client.element.ElementBurnLeft;
-import ten3.lib.client.element.ElementProgress;
-import ten3.lib.recipe.FormsCombinedRecipe;
-import ten3.plugin.jei.JeiBaseCategory;
-import ten3.plugin.jei.JeiVanillaCategory;
-import ten3.plugin.jei.TEJeiPlugins;
+import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.lib.client.element.ElementBurnLeft;
+import committee.nova.mods.keneng.lib.client.element.ElementProgress;
+import committee.nova.mods.keneng.lib.recipe.FormsCombinedRecipe;
+import committee.nova.mods.keneng.plugin.jei.JeiBaseCategory;
+import committee.nova.mods.keneng.plugin.jei.JeiVanillaCategory;
+import committee.nova.mods.keneng.plugin.jei.TEJeiPlugins;
 
-import static ten3.lib.tile.CmScreen.handler;
+import static committee.nova.mods.keneng.lib.tile.CmScreen.handler;
 
 public class CategorySmelter extends JeiVanillaCategory<SmeltingRecipe>
 {

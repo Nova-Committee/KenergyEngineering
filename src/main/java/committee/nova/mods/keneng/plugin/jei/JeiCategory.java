@@ -1,14 +1,15 @@
-package ten3.plugin.jei;
+package committee.nova.mods.keneng.plugin.jei;
 
-import com.mojang.blaze3d.vertex.PoseStack;
 import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;
 import mezz.jei.api.gui.ingredient.IRecipeSlotsView;
 import mezz.jei.api.recipe.IFocusGroup;
 import mezz.jei.api.recipe.RecipeType;
+import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.world.Container;
 import net.minecraft.world.item.crafting.Recipe;
-import ten3.lib.client.element.ElementBurnLeft;
-import ten3.lib.client.element.ElementProgress;
+import committee.nova.mods.keneng.lib.client.element.ElementBurnLeft;
+import committee.nova.mods.keneng.lib.client.element.ElementProgress;
+import org.jetbrains.annotations.NotNull;
 
 public abstract class JeiCategory<T extends Recipe<Container>> extends JeiBaseCategory<T>
 {
@@ -19,10 +20,9 @@ public abstract class JeiCategory<T extends Recipe<Container>> extends JeiBaseCa
     }
 
     @Override
-    public void draw(T recipe, IRecipeSlotsView recipeSlotsView, PoseStack stack, double mouseX, double mouseY)
-    {
+    public void draw(@NotNull T recipe, @NotNull IRecipeSlotsView recipeSlotsView, @NotNull GuiGraphics guiGraphics, double mouseX, double mouseY) {
         updateInfo(recipe);
-        drawer.draw(stack, 0, 0);
+        drawer.draw(guiGraphics, 0, 0);
     }
 
     public void dynamic3e(ElementProgress progress, ElementBurnLeft energy, ElementBurnLeft left)
