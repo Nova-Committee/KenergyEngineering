@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "ten3:tin_ingot"
+      "item": "keneng:tin_ingot"
     }
   ],
   "result": {
-    "item": "ten3:tin_nugget",
+    "item": "keneng:tin_nugget",
     "count": 9
   }
 }

@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "ten3:tin_ore"
+              "name": "keneng:tin_ore"
             },
             {
               "type": "minecraft:item",
@@ -47,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "ten3:raw_tin"
+              "name": "keneng:raw_tin"
             }
           ]
         }

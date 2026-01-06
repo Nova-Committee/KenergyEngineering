@@ -13,16 +13,16 @@
       "item": "minecraft:gold_ingot"
     },
     "C": {
-      "item": "ten3:redstone_storer"
+      "item": "keneng:redstone_storer"
     },
     "V": {
       "item": "minecraft:redstone"
     },
     "D": {
-      "item": "ten3:redstone_conductor"
+      "item": "keneng:redstone_conductor"
     }
   },
   "result": {
-    "item": "ten3:engine_metal"
+    "item": "keneng:engine_metal"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "type": "ten3:refiner",
+  "type": "keneng:refiner",
   "inputs": [
     {
       "form": "item",
@@ -16,12 +16,12 @@
   "outputs": [
     {
       "form": "item",
-      "key": "ten3:nickel_ingot",
+      "key": "keneng:nickel_ingot",
       "count": 3
     },
     {
       "form": "item",
-      "key": "ten3:nickel_ingot",
+      "key": "keneng:nickel_ingot",
       "count": 1,
       "chance": 0.5
     }

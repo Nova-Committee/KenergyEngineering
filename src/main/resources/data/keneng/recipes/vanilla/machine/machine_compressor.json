@@ -13,16 +13,16 @@
       "tag": "forge:ingots/copper"
     },
     "C": {
-      "item": "ten3:redstone_storer"
+      "item": "keneng:redstone_storer"
     },
     "V": {
-      "item": "ten3:redstone_ai"
+      "item": "keneng:redstone_ai"
     },
     "D": {
       "tag": "forge:gears/copper"
     }
   },
   "result": {
-    "item": "ten3:machine_compressor"
+    "item": "keneng:machine_compressor"
   }
 }

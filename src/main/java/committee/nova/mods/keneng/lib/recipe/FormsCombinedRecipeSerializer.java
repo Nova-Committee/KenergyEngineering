@@ -87,7 +87,7 @@ public class FormsCombinedRecipeSerializer implements CmSerializer<FormsCombined
 
     private static FormsCombinedIngredient EMPTY()
     {
-        FormsCombinedIngredient ig = FormsCombinedIngredient.create(0, "item", "static", new ResourceLocation("air"), new ResourceLocation("committee/nova/mods/keneng", "empty_recipe"), 0);
+        FormsCombinedIngredient ig = FormsCombinedIngredient.create(0, "item", "static", new ResourceLocation("air"), new ResourceLocation("keneng", "empty_recipe"), 0);
         ig.ALLOW_ALL = true;
         return ig;
     }

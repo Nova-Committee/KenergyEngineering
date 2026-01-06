@@ -13,16 +13,16 @@
       "tag": "forge:plates/nickel"
     },
     "C": {
-      "item": "ten3:redstone_storer"
+      "item": "keneng:redstone_storer"
     },
     "V": {
-      "item": "ten3:redstone_ai"
+      "item": "keneng:redstone_ai"
     },
     "D": {
       "item": "minecraft:slime_block"
     }
   },
   "result": {
-    "item": "ten3:machine_matter_condenser"
+    "item": "keneng:machine_matter_condenser"
   }
 }

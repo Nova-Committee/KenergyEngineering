@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "ten3:nickel_block"
+      "item": "keneng:nickel_block"
     }
   ],
   "result": {
-    "item": "ten3:nickel_ingot",
+    "item": "keneng:nickel_ingot",
     "count": 9
   }
 }

@@ -115,7 +115,7 @@ public class MachineClick
             }
             if(success && giveSuc) {
                 player.sendSystemMessage(
-                        ComponentHelper.translated(ComponentHelper.GREEN, i.getDisplayName().getString(), "ten3.info.upgrade_successfully"));
+                        ComponentHelper.translated(ComponentHelper.GREEN, i.getDisplayName().getString(), "keneng.info.upgrade_successfully"));
 
                 if(!player.isCreative()) {
                     i.shrink(1);
@@ -123,12 +123,12 @@ public class MachineClick
             }
             else if(!giveSuc) {
                 player.sendSystemMessage(
-                        ComponentHelper.translated(ComponentHelper.RED, "ten3.info.too_much_upgrades")
+                        ComponentHelper.translated(ComponentHelper.RED, "keneng.info.too_much_upgrades")
                 );
             }
             else {
                 player.sendSystemMessage(
-                        ComponentHelper.translated(ComponentHelper.RED, "ten3.info.not_support_upgrade")
+                        ComponentHelper.translated(ComponentHelper.RED, "keneng.info.not_support_upgrade")
                 );
             }
             PTCInfoClientPack.send(tile);

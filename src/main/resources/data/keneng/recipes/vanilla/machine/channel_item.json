@@ -10,14 +10,14 @@
       "tag": "forge:glass"
     },
     "B": {
-      "item": "ten3:hydraulic_widget"
+      "item": "keneng:hydraulic_widget"
     },
     "C": {
       "tag": "forge:ingots/tin"
     }
   },
   "result": {
-    "item": "ten3:channel_item",
+    "item": "keneng:channel_item",
     "count": 2
   }
 }

@@ -10,14 +10,14 @@
       "item": "minecraft:redstone"
     },
     "B": {
-      "item": "ten3:detector"
+      "item": "keneng:detector"
     },
     "C": {
       "tag": "forge:ingots/iron"
     }
   },
   "result": {
-    "item": "ten3:channel_connector",
+    "item": "keneng:channel_connector",
     "count": 1
   }
 }

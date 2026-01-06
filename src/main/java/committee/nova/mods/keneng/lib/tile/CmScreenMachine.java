@@ -117,7 +117,7 @@ public class CmScreenMachine extends CmScreen<CmContainerMachine>
             widgets.add(bar_energy = new ElementBarEnergy(barx, w + 1, w, w, 132, 211, handler));
             widgets.add(bar_control = new ElementBarControl(barx, (w + 1) * 3, w, w, 152, 40, handler));
 
-            //bar_redstone.setTxt("ten3.info.bar_redstone");
+            //bar_redstone.setTxt("keneng.info.bar_redstone");
             //redstone bar
             widgets.add(rs_button_high = new ElementButton(barx, (w + 1) * 2, w, w, 186, 211, handler,
                                                            this::cycleModeRed
@@ -128,9 +128,9 @@ public class CmScreenMachine extends CmScreen<CmContainerMachine>
             widgets.add(rs_button_off = new ElementButton(barx, (w + 1) * 2, w, w, 186, 157, handler,
                                                           this::cycleModeRed
             ).withNoChange());
-            rs_button_low.setTxt("ten3.info.bar_redstone", "ten3.info.low");
-            rs_button_high.setTxt("ten3.info.bar_redstone", "ten3.info.high");
-            rs_button_off.setTxt("ten3.info.bar_redstone", "ten3.info.off");
+            rs_button_low.setTxt("keneng.info.bar_redstone", "keneng.info.low");
+            rs_button_high.setTxt("keneng.info.bar_redstone", "keneng.info.high");
+            rs_button_off.setTxt("keneng.info.bar_redstone", "keneng.info.off");
             //control panel buttons
             int baseX = -w2 - 1 + getSideBarOffset();
             int baseY = (w + 1) * 3;

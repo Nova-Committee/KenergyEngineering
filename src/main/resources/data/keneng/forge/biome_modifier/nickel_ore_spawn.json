@@ -3,6 +3,6 @@
   "biomes": {
     "type": "forge:any"
   },
-  "features": "ten3:nickel_ore",
+  "features": "keneng:nickel_ore",
   "step": "underground_ores"
 }

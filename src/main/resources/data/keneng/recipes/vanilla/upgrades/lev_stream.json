@@ -7,19 +7,19 @@
   ],
   "key": {
     "A": {
-      "item": "ten3:bizarrerie"
+      "item": "keneng:bizarrerie"
     },
     "B": {
-      "item": "ten3:cable_star"
+      "item": "keneng:cable_star"
     },
     "C": {
-      "item": "ten3:redstone_conductor"
+      "item": "keneng:redstone_conductor"
     },
     "D": {
       "item": "minecraft:chorus_fruit"
     }
   },
   "result": {
-    "item": "ten3:stream_levelup"
+    "item": "keneng:stream_levelup"
   }
 }

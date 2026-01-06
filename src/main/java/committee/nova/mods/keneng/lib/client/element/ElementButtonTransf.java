@@ -35,7 +35,7 @@ public class ElementButtonTransf extends ElementButton
     {
         if(text != null) {
             tooltips.add(text);
-            tooltips.add(ComponentHelper.translated("ten3.info." + FaceOption.toStr(mode)));
+            tooltips.add(ComponentHelper.translated("keneng.info." + FaceOption.toStr(mode)));
         }
     }
 

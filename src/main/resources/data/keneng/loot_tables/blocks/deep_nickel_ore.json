@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "ten3:deep_nickel_ore"
+              "name": "keneng:deep_nickel_ore"
             },
             {
               "type": "minecraft:item",
@@ -47,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "ten3:raw_nickel"
+              "name": "keneng:raw_nickel"
             }
           ]
         }

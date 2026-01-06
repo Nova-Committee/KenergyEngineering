@@ -328,7 +328,7 @@
         {
           "type": "minecraft:item",
           "weight": 9,
-          "name": "ten3:relic_levelup"
+          "name": "keneng:relic_levelup"
         }
       ]
     }

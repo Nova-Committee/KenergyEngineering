@@ -16,10 +16,10 @@
       "item": "minecraft:hopper"
     },
     "D": {
-      "item": "ten3:bizarrerie"
+      "item": "keneng:bizarrerie"
     }
   },
   "result": {
-    "item": "ten3:potion_levelup"
+    "item": "keneng:potion_levelup"
   }
 }

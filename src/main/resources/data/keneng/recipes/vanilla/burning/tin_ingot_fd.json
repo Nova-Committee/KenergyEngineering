@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "ten3:tin_dust"
+    "item": "keneng:tin_dust"
   },
-  "result": "ten3:tin_ingot",
+  "result": "keneng:tin_ingot",
   "experience": 0,
   "cookingtime": 200
 }

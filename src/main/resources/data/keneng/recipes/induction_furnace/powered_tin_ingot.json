@@ -1,15 +1,15 @@
 {
-  "type": "ten3:induction_furnace",
+  "type": "keneng:induction_furnace",
   "inputs": [
     {
       "form": "item",
       "type": "tag",
-      "key": "ten3:mats/tin"
+      "key": "keneng:mats/tin"
     },
     {
       "form": "item",
       "type": "tag",
-      "key": "ten3:mats/copper"
+      "key": "keneng:mats/copper"
     },
     {
       "form": "item",
@@ -21,7 +21,7 @@
   "outputs": [
     {
       "form": "item",
-      "key": "ten3:powered_tin_ingot",
+      "key": "keneng:powered_tin_ingot",
       "count": 3
     }
   ],

@@ -10,16 +10,16 @@
       "tag": "forge:gems/diamond"
     },
     "B": {
-      "item": "ten3:indigo"
+      "item": "keneng:indigo"
     },
     "C": {
-      "item": "ten3:cell"
+      "item": "keneng:cell"
     },
     "D": {
-      "item": "ten3:azure_glass"
+      "item": "keneng:azure_glass"
     }
   },
   "result": {
-    "item": "ten3:mineral_levelup"
+    "item": "keneng:mineral_levelup"
   }
 }

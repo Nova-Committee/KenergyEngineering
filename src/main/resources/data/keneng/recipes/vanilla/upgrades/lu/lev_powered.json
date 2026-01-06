@@ -7,7 +7,7 @@
   ],
   "key": {
     "A": {
-      "item": "ten3:augmented_levelup"
+      "item": "keneng:augmented_levelup"
     },
     "B": {
       "tag": "forge:gears/tin"
@@ -16,10 +16,10 @@
       "tag": "forge:glass"
     },
     "E": {
-      "item": "ten3:azure_glass"
+      "item": "keneng:azure_glass"
     }
   },
   "result": {
-    "item": "ten3:powered_levelup"
+    "item": "keneng:powered_levelup"
   }
 }

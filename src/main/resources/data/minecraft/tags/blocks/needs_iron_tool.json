@@ -1,16 +1,16 @@
 {
   "replace": false,
   "values": [
-    "ten3:nickel_ore",
-    "ten3:tin_ore",
-    "ten3:deep_nickel_ore",
-    "ten3:deep_tin_ore",
-    "ten3:nickel_block",
-    "ten3:tin_block",
-    "ten3:raw_nickel_block",
-    "ten3:raw_tin_block",
-    "ten3:powered_tin_block",
-    "ten3:chlorium_block",
+    "keneng:nickel_ore",
+    "keneng:tin_ore",
+    "keneng:deep_nickel_ore",
+    "keneng:deep_tin_ore",
+    "keneng:nickel_block",
+    "keneng:tin_block",
+    "keneng:raw_nickel_block",
+    "keneng:raw_tin_block",
+    "keneng:powered_tin_block",
+    "keneng:chlorium_block",
     "#ten3:machines"
   ]
 }

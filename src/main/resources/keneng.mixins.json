@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "committee.nova.mods.keneng.init.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "keneng.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

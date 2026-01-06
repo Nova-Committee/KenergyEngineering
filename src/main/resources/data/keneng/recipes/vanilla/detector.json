@@ -7,13 +7,13 @@
   ],
   "key": {
     "A": {
-      "item": "ten3:azure_glass"
+      "item": "keneng:azure_glass"
     },
     "C": {
       "tag": "forge:glass"
     }
   },
   "result": {
-    "item": "ten3:detector"
+    "item": "keneng:detector"
   }
 }

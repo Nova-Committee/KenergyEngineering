@@ -3,6 +3,6 @@
   "biomes": {
     "type": "forge:any"
   },
-  "features": "ten3:tin_ore",
+  "features": "keneng:tin_ore",
   "step": "underground_ores"
 }

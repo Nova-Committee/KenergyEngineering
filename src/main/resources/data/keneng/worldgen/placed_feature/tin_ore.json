@@ -7,7 +7,7 @@
       "targets": [
         {
           "state": {
-            "Name": "ten3:tin_ore"
+            "Name": "keneng:tin_ore"
           },
           "target": {
             "predicate_type": "minecraft:tag_match",
@@ -16,7 +16,7 @@
         },
         {
           "state": {
-            "Name": "ten3:deep_tin_ore"
+            "Name": "keneng:deep_tin_ore"
           },
           "target": {
             "predicate_type": "minecraft:tag_match",

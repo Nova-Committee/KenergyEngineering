@@ -13,16 +13,16 @@
       "tag": "forge:plates/chlorium"
     },
     "C": {
-      "item": "ten3:redstone_storer"
+      "item": "keneng:redstone_storer"
     },
     "V": {
-      "item": "ten3:redstone_ai"
+      "item": "keneng:redstone_ai"
     },
     "D": {
-      "item": "ten3:hydraulic_widget"
+      "item": "keneng:hydraulic_widget"
     }
   },
   "result": {
-    "item": "ten3:machine_farm_manager"
+    "item": "keneng:machine_farm_manager"
   }
 }

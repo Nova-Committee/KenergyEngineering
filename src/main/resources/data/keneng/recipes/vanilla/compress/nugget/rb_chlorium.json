@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "ten3:chlorium_ingot"
+      "item": "keneng:chlorium_ingot"
     }
   ],
   "result": {
-    "item": "ten3:chlorium_nugget",
+    "item": "keneng:chlorium_nugget",
     "count": 9
   }
 }

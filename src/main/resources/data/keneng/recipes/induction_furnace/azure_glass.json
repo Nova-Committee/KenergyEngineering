@@ -1,5 +1,5 @@
 {
-  "type": "ten3:induction_furnace",
+  "type": "keneng:induction_furnace",
   "inputs": [
     {
       "form": "item",
@@ -16,7 +16,7 @@
   "outputs": [
     {
       "form": "item",
-      "key": "ten3:azure_glass"
+      "key": "keneng:azure_glass"
     }
   ],
   "time": 100

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "ten3:gold_dust"
+    "item": "keneng:gold_dust"
   },
   "result": "minecraft:gold_ingot",
   "experience": 0,

@@ -13,16 +13,16 @@
       "tag": "forge:plates/powered_tin"
     },
     "C": {
-      "item": "ten3:redstone_storer"
+      "item": "keneng:redstone_storer"
     },
     "V": {
-      "item": "ten3:redstone_ai"
+      "item": "keneng:redstone_ai"
     },
     "D": {
-      "item": "ten3:detector"
+      "item": "keneng:detector"
     }
   },
   "result": {
-    "item": "ten3:machine_refiner"
+    "item": "keneng:machine_refiner"
   }
 }

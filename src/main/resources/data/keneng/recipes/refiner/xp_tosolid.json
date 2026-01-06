@@ -1,10 +1,10 @@
 {
-  "type": "ten3:refiner",
+  "type": "keneng:refiner",
   "inputs": [
     {
       "form": "fluid",
       "type": "static",
-      "key": "ten3:liquid_xp",
+      "key": "keneng:liquid_xp",
       "amount": 10
     },
     {

@@ -1,22 +1,22 @@
 {
-  "type": "ten3:refiner",
+  "type": "keneng:refiner",
   "inputs": [
     {
       "form": "item",
       "type": "static",
-      "key": "ten3:redstone_ai"
+      "key": "keneng:redstone_ai"
     },
     {
       "form": "fluid",
       "type": "static",
-      "key": "ten3:liquid_bizarrerie",
+      "key": "keneng:liquid_bizarrerie",
       "amount": 20
     }
   ],
   "outputs": [
     {
       "form": "item",
-      "key": "ten3:redstone_ai_advanced",
+      "key": "keneng:redstone_ai_advanced",
       "count": 1
     }
   ],

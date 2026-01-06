@@ -32,7 +32,7 @@ public class ElementBarUpgrades extends ElementBar
     public void addToolTip(List<Component> tooltips)
     {
 
-        tooltips.add(ComponentHelper.translated(ComponentHelper.GOLD, "ten3.info.bar_upgrade"));
+        tooltips.add(ComponentHelper.translated(ComponentHelper.GOLD, "keneng.info.bar_upgrade"));
 
     }
 

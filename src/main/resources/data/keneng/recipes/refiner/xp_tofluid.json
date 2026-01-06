@@ -1,5 +1,5 @@
 {
-  "type": "ten3:refiner",
+  "type": "keneng:refiner",
   "inputs": [
     {
       "form": "item",
@@ -14,7 +14,7 @@
     },
     {
       "form": "fluid",
-      "key": "ten3:liquid_xp",
+      "key": "keneng:liquid_xp",
       "amount": 10
     }
   ],

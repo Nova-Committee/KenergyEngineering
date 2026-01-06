@@ -1,5 +1,5 @@
 {
-  "type": "ten3:refiner",
+  "type": "keneng:refiner",
   "inputs": [
     {
       "form": "item",

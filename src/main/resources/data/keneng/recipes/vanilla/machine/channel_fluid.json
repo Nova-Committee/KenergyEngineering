@@ -10,14 +10,14 @@
       "tag": "forge:glass"
     },
     "B": {
-      "item": "ten3:detector"
+      "item": "keneng:detector"
     },
     "C": {
       "tag": "forge:ingots/gold"
     }
   },
   "result": {
-    "item": "ten3:channel_fluid",
+    "item": "keneng:channel_fluid",
     "count": 2
   }
 }

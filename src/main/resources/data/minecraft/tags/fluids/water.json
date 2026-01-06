@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "ten3:liquid_xp",
-    "ten3:liquid_xp_flowing",
-    "ten3:liquid_bizarrerie",
-    "ten3:liquid_bizarrerie_flowing"
+    "keneng:liquid_xp",
+    "keneng:liquid_xp_flowing",
+    "keneng:liquid_bizarrerie",
+    "keneng:liquid_bizarrerie_flowing"
   ]
 }

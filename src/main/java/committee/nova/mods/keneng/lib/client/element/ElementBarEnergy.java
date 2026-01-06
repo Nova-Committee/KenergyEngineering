@@ -49,26 +49,26 @@ public class ElementBarEnergy extends ElementImage
     public void addToolTip(List<Component> tooltips)
     {
 
-        list.add(ComponentHelper.translated(ComponentHelper.GOLD, "ten3.info.bar_energy"));
+        list.add(ComponentHelper.translated(ComponentHelper.GOLD, "keneng.info.bar_energy"));
 
-        list.add(ComponentHelper.translated("ten3.info.bar_energy_fact"));
+        list.add(ComponentHelper.translated("keneng.info.bar_energy_fact"));
         list.add(ComponentHelper.translated(ComponentHelper.RED, Math.abs(mxe) + " FE/t"));
-        list.add(ComponentHelper.translated("ten3.info.bar_energy_max"));
+        list.add(ComponentHelper.translated("keneng.info.bar_energy_max"));
         list.add(ComponentHelper.translated(ComponentHelper.RED, auc + " FE/t"));
 
-        list.add(ComponentHelper.translated("ten3.info.bar_energy_in_max"));
+        list.add(ComponentHelper.translated("keneng.info.bar_energy_in_max"));
         list.add(ComponentHelper.translated(ComponentHelper.RED, eneI + " FE/t"));
-        list.add(ComponentHelper.translated("ten3.info.bar_energy_out_max"));
+        list.add(ComponentHelper.translated("keneng.info.bar_energy_out_max"));
         list.add(ComponentHelper.translated(ComponentHelper.RED, eneO + " FE/t"));
 
-        list.add(ComponentHelper.translated("ten3.info.bar_item_in_max"));
+        list.add(ComponentHelper.translated("keneng.info.bar_item_in_max"));
         list.add(ComponentHelper.translated(ComponentHelper.RED, itmI + " IS/t"));
-        list.add(ComponentHelper.translated("ten3.info.bar_item_out_max"));
+        list.add(ComponentHelper.translated("keneng.info.bar_item_out_max"));
         list.add(ComponentHelper.translated(ComponentHelper.RED, itmO + " IS/t"));
 
-        list.add(ComponentHelper.translated("ten3.info.bar_fluid_in_max"));
+        list.add(ComponentHelper.translated("keneng.info.bar_fluid_in_max"));
         list.add(ComponentHelper.translated(ComponentHelper.RED, fluI + " mB/t"));
-        list.add(ComponentHelper.translated("ten3.info.bar_fluid_out_max"));
+        list.add(ComponentHelper.translated("keneng.info.bar_fluid_out_max"));
         list.add(ComponentHelper.translated(ComponentHelper.RED, fluO + " mB/t"));
 
         tooltips.addAll(list);

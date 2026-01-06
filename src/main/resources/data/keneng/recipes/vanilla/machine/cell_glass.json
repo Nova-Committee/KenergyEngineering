@@ -13,10 +13,10 @@
       "item": "minecraft:redstone"
     },
     "C": {
-      "item": "ten3:redstone_storer"
+      "item": "keneng:redstone_storer"
     }
   },
   "result": {
-    "item": "ten3:cell"
+    "item": "keneng:cell"
   }
 }

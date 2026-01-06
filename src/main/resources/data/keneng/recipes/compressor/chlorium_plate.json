@@ -1,5 +1,5 @@
 {
-  "type": "ten3:compressor",
+  "type": "keneng:compressor",
   "inputs": [
     {
       "form": "item",
@@ -9,13 +9,13 @@
     {
       "form": "item",
       "type": "static",
-      "key": "ten3:mould_plate"
+      "key": "keneng:mould_plate"
     }
   ],
   "outputs": [
     {
       "form": "item",
-      "key": "ten3:chlorium_plate"
+      "key": "keneng:chlorium_plate"
     }
   ],
   "time": 100

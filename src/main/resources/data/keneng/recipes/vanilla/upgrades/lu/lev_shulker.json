@@ -7,7 +7,7 @@
   ],
   "key": {
     "A": {
-      "item": "ten3:powered_levelup"
+      "item": "keneng:powered_levelup"
     },
     "B": {
       "tag": "forge:gears/powered_tin"
@@ -20,6 +20,6 @@
     }
   },
   "result": {
-    "item": "ten3:relic_levelup"
+    "item": "keneng:relic_levelup"
   }
 }

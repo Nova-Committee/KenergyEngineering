@@ -1,5 +1,5 @@
 {
-  "type": "ten3:pulverizer",
+  "type": "keneng:pulverizer",
   "inputs": [
     {
       "form": "item",
@@ -10,7 +10,7 @@
   "outputs": [
     {
       "form": "item",
-      "key": "ten3:tin_dust",
+      "key": "keneng:tin_dust",
       "count": 2
     },
     {

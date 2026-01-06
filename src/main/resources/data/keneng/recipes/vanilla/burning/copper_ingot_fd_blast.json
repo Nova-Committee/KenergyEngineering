@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "ten3:copper_dust"
+    "item": "keneng:copper_dust"
   },
   "result": "minecraft:copper_ingot",
   "experience": 0,

@@ -17,10 +17,10 @@ public class ElementBarIdeas extends ElementImage
 
         super(xr, y, w, h, xOff, yOff, resourceLocation);
 
-        list.add(ComponentHelper.translated(ComponentHelper.GOLD, "ten3.info.bar_ideas"));
+        list.add(ComponentHelper.translated(ComponentHelper.GOLD, "keneng.info.bar_ideas"));
 
         for(int i = 0; true; i++) {
-            String k = "ten3.info." + ComponentHelper.exceptMachineOrGiveCell(key) + "." + i;
+            String k = "keneng.info." + ComponentHelper.exceptMachineOrGiveCell(key) + "." + i;
             Component ttc = ComponentHelper.translated(k);
             if(ttc.getString().equals(k)) {
                 break;

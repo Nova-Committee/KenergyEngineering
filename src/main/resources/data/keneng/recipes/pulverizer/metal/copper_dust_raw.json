@@ -1,5 +1,5 @@
 {
-  "type": "ten3:pulverizer",
+  "type": "keneng:pulverizer",
   "inputs": [
     {
       "form": "item",
@@ -10,12 +10,12 @@
   "outputs": [
     {
       "form": "item",
-      "key": "ten3:copper_dust",
+      "key": "keneng:copper_dust",
       "count": 1
     },
     {
       "form": "item",
-      "key": "ten3:copper_dust",
+      "key": "keneng:copper_dust",
       "count": 1,
       "chance": 0.4
     }

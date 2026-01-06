@@ -13,16 +13,16 @@
       "tag": "forge:ingots/chlorium"
     },
     "C": {
-      "item": "ten3:redstone_storer"
+      "item": "keneng:redstone_storer"
     },
     "V": {
       "item": "minecraft:redstone"
     },
     "D": {
-      "item": "ten3:redstone_conductor"
+      "item": "keneng:redstone_conductor"
     }
   },
   "result": {
-    "item": "ten3:engine_solar"
+    "item": "keneng:engine_solar"
   }
 }

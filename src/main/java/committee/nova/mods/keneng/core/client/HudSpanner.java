@@ -50,7 +50,7 @@ public class HudSpanner extends Screen
         h = Minecraft.getInstance().getWindow().getGuiScaledHeight();
         init(Minecraft.getInstance(), w, h);//&*&
 
-        Component tc = ComponentHelper.translated("ten3.info.spanner.mode", "ten3.info.mode." + ItemNBTHelper.getTag(player.getMainHandItem(), "mode"));
+        Component tc = ComponentHelper.translated("keneng.info.spanner.mode", "keneng.info.mode." + ItemNBTHelper.getTag(player.getMainHandItem(), "mode"));
 
         int hp = player.isCreative() ? (int) (h / 3 * 2.6) : (int) (h / 3 * 2.42);
         //RenderHelper.render(s, w / 2 - 29, hp - 3, 58, 13, 256, 256, 0, 198, TConst.guiHandler);
@@ -60,15 +60,15 @@ public class HudSpanner extends Screen
             return;
         }
 
-        MutableComponent c1 = ComponentHelper.translated("ten3.info.spanner.dire.energy");
-        MutableComponent c2 = ComponentHelper.translated("ten3.info.spanner.dire.item");
-        MutableComponent c25 = ComponentHelper.translated("ten3.info.spanner.dire.fluid");
-        MutableComponent c3 = ComponentHelper.translated("ten3.info.spanner.dire.redstone");
-        MutableComponent c4 = ComponentHelper.translated("ten3.info.spanner.work_radius")
+        MutableComponent c1 = ComponentHelper.translated("keneng.info.spanner.dire.energy");
+        MutableComponent c2 = ComponentHelper.translated("keneng.info.spanner.dire.item");
+        MutableComponent c25 = ComponentHelper.translated("keneng.info.spanner.dire.fluid");
+        MutableComponent c3 = ComponentHelper.translated("keneng.info.spanner.dire.redstone");
+        MutableComponent c4 = ComponentHelper.translated("keneng.info.spanner.work_radius")
                 .append(ComponentHelper.make(
                         String.valueOf(SafeOperationHelper.safeInt(ClientHolder.radius.get(pos)))
                 ));
-        MutableComponent c5 = ComponentHelper.translated("ten3.info.spanner.bind_pos")
+        MutableComponent c5 = ComponentHelper.translated("keneng.info.spanner.bind_pos")
                 .append(ComponentHelper.make(
                         String.valueOf(ClientHolder.binds.get(pos))
                 ));
@@ -81,18 +81,18 @@ public class HudSpanner extends Screen
 
         int di = DirectionHelper.direToInt(d);
 
-        c1.append(ComponentHelper.translated("ten3.info." + FaceOption.toStr(ClientHolder.energy.getOrFill(pos, 6).get(di))));
-        c2.append(ComponentHelper.translated("ten3.info." + FaceOption.toStr(ClientHolder.item.getOrFill(pos, 6).get(di))));
-        c25.append(ComponentHelper.translated("ten3.info." + FaceOption.toStr(ClientHolder.fluid.getOrFill(pos, 6).get(di))));
+        c1.append(ComponentHelper.translated("keneng.info." + FaceOption.toStr(ClientHolder.energy.getOrFill(pos, 6).get(di))));
+        c2.append(ComponentHelper.translated("keneng.info." + FaceOption.toStr(ClientHolder.item.getOrFill(pos, 6).get(di))));
+        c25.append(ComponentHelper.translated("keneng.info." + FaceOption.toStr(ClientHolder.fluid.getOrFill(pos, 6).get(di))));
 
         if(red == RedstoneMode.LOW) {
-            c3.append(ComponentHelper.translated("ten3.info.low"));
+            c3.append(ComponentHelper.translated("keneng.info.low"));
         }
         else if(red == RedstoneMode.HIGH) {
-            c3.append(ComponentHelper.translated("ten3.info.high"));
+            c3.append(ComponentHelper.translated("keneng.info.high"));
         }
         else {
-            c3.append(ComponentHelper.translated("ten3.info.off"));
+            c3.append(ComponentHelper.translated("keneng.info.off"));
         }
 
         int x = w / 2;
