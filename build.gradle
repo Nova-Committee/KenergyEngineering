@@ -201,8 +201,8 @@ test {
  */
 Map<String, String> commonSystemProperties = [
         'forge.logging.console.level': 'debug',
-        "mixin.debug.export": "true",
-        "mixin.config":"${mod_id}.mixins.json"
+//        "mixin.debug.export": "true",
+//        "mixin.config":"${mod_id}.mixins.json"
 ]
 
 legacyForge {
@@ -302,19 +302,19 @@ processResources {
 
 ///////////
 // Mixins
-mixin {
-    var refmap = add sourceSets.main, "${mod_id}.refmap.json"
-    jar.from refmap
-    config "${mod_id}.mixins.json"
-}
-
-jar {
-    manifest {
-        attributes([
-                "MixinConfigs"          : "${mod_id}.mixins.json"
-        ])
-    }
-}
+//mixin {
+//    var refmap = add sourceSets.main, "${mod_id}.refmap.json"
+//    jar.from refmap
+//    config "${mod_id}.mixins.json"
+//}
+//
+//jar {
+//    manifest {
+//        attributes([
+//                "MixinConfigs"          : "${mod_id}.mixins.json"
+//        ])
+//    }
+//}
 
 def publicApiIncludePatterns = {
 }
