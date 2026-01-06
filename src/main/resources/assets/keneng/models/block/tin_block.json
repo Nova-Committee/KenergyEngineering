@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "keneng:block/storage/tin_block",
+    "particle": "keneng:block/storage/tin_block"
+  }
+}

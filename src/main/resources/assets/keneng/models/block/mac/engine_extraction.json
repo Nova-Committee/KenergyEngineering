@@ -1,0 +1,7 @@
+{
+	"parent": "keneng:block/mac/engine",
+	"textures": {
+		"side": "keneng:block/machine/engine/engine_extraction",
+		"bot": "keneng:block/machine/engine/engine_extraction_bottom"
+	}
+}

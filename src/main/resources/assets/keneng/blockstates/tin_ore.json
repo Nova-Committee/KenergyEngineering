@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "keneng:block/tin_ore"
+    }
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "ten3:block/channel/channel",
-  "textures": {
-    "texture": "ten3:block/machine/channel/channel_item"
-  }
-}

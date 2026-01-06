@@ -1,0 +1,6 @@
+{
+	"parent": "keneng:block/pipe/pcn",
+	"textures": {
+		"texture": "keneng:block/machine/pipe_white"
+	}
+}

@@ -36,7 +36,6 @@ import ten3.lib.recipe.FormsCombinedRecipe;
 import ten3.init.ItemInit;
 import ten3.init.RecipeInit;
 import ten3.lib.tile.CmScreenMachine;
-import ten3.plugin.jei.impl.*;
 
 import java.util.ArrayList;
 import java.util.Collection;

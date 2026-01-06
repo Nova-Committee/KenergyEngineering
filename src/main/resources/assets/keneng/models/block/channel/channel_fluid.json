@@ -1,0 +1,6 @@
+{
+  "parent": "keneng:block/channel/channel",
+  "textures": {
+    "texture": "keneng:block/machine/channel/channel_fluid"
+  }
+}

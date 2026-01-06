@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "keneng:block/storage/chlorium_block",
+    "particle": "keneng:block/storage/chlorium_block"
+  }
+}

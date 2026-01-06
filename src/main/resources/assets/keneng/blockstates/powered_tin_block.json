@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "keneng:block/powered_tin_block"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "keneng:block/cable/ccn",
+	"textures": {
+		"texture": "keneng:block/machine/cable"
+	}
+}

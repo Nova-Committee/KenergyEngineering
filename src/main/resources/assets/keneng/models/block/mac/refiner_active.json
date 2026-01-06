@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "keneng:block/machine/machine_side",
+    "north": "keneng:block/machine/refiner_active",
+    "south": "keneng:block/machine/machine_side",
+    "east": "keneng:block/machine/machine_side",
+    "west": "keneng:block/machine/machine_side",
+    "up": "keneng:block/machine/machine_top",
+    "down": "keneng:block/machine/machine_bottom"
+  }
+}

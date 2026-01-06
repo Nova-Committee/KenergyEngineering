@@ -1,7 +1,0 @@
-{
-	"parent": "ten3:block/mac/engine",
-	"textures": {
-		"side": "ten3:block/machine/engine/engine_extraction",
-		"bot": "ten3:block/machine/engine/engine_extraction_bottom"
-	}
-}
