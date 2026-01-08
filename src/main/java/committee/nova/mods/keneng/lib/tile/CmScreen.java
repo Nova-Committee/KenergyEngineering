@@ -6,7 +6,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
 import org.lwjgl.glfw.GLFW;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.lib.client.element.ElementBase;
 import committee.nova.mods.keneng.lib.wrapper.IntArrayCm;
 import committee.nova.mods.keneng.util.GuiHelper;
@@ -23,7 +23,7 @@ public class CmScreen<T extends CmContainerMachine> extends AbstractContainerScr
 {
 
     //all widgets
-    public static final ResourceLocation handler = TConst.guiHandler;
+    public static final ResourceLocation handler = Const.guiHandler;
     public final ResourceLocation BG;
     protected int texh;
     protected int texw;
@@ -49,7 +49,7 @@ public class CmScreen<T extends CmContainerMachine> extends AbstractContainerScr
     {
 
         super(container, inv, titleIn);
-        BG = new ResourceLocation(TConst.modid, path);
+        BG = new ResourceLocation(Const.modid, path);
         texh = textureH;
         texw = textureW;
         this.container = container;

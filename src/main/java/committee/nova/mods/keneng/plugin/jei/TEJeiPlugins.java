@@ -17,7 +17,7 @@ import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.item.crafting.RecipeManager;
 import net.minecraft.world.item.crafting.SmeltingRecipe;
 import net.minecraftforge.fluids.FluidStack;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.core.machine.useenergy.compressor.CompressorScreen;
 import committee.nova.mods.keneng.core.machine.useenergy.indfur.IndfurScreen;
 import committee.nova.mods.keneng.core.machine.useenergy.psionicant.PsionicantScreen;
@@ -44,7 +44,7 @@ public class TEJeiPlugins implements IModPlugin {
     public static RecipeType<FormsCombinedRecipe> refiner = getType(FormsCombinedRecipe.class, "refiner");
 
     private static<T> RecipeType<T> getType(Class<T> recipe, String name) {
-        return RecipeType.create(TConst.modid, name, recipe);
+        return RecipeType.create(Const.modid, name, recipe);
     }
 
     @Override
@@ -134,7 +134,7 @@ public class TEJeiPlugins implements IModPlugin {
     @Override
     public ResourceLocation getPluginUid()
     {
-        return new ResourceLocation("jei", TConst.modid);
+        return new ResourceLocation("jei", Const.modid);
     }
 
 }

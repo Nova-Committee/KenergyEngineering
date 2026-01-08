@@ -36,9 +36,9 @@ public class HudConnector extends Screen
         h = Minecraft.getInstance().getWindow().getGuiScaledHeight();
         init(Minecraft.getInstance(), w, h);//&*&
 
-        Component in = ComponentHelper.translated("ten3.channel_connector.mode.in");
-        Component out = ComponentHelper.translated("ten3.channel_connector.mode.out");
-        Component rem = ComponentHelper.translated("ten3.channel_connector.mode.rem");
+        Component in = ComponentHelper.translated("keneng.channel_connector.mode.in");
+        Component out = ComponentHelper.translated("keneng.channel_connector.mode.out");
+        Component rem = ComponentHelper.translated("keneng.channel_connector.mode.rem");
         Component trueVal = ComponentHelper.make("");
         Component pos = ComponentHelper.make("");
         switch(Connector.Modes.parse(player.getMainHandItem())) {
@@ -51,7 +51,7 @@ public class HudConnector extends Screen
             Component i1 = ComponentHelper.make(DisplayHelper.toString(
                     BlockPos.of((long) ItemNBTHelper.getTagD(player.getMainHandItem(), "last"))
             ));
-            pos = ComponentHelper.translated("ten3.channel.pointer_last").append(i1);
+            pos = ComponentHelper.translated("keneng.channel.pointer_last").append(i1);
         }
 
         int hp = player.isCreative() ? (int) (h / 3 * 2.6) : (int) (h / 3 * 2.42);

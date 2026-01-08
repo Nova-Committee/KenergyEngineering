@@ -5,11 +5,10 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.core.item.Connector;
 import committee.nova.mods.keneng.core.item.Spanner;
 import committee.nova.mods.keneng.core.item.energy.BlockItemFEStorage;
-import committee.nova.mods.keneng.core.item.upgrades.*;
 import committee.nova.mods.keneng.core.machine.useenergy.compressor.Mould;
 import committee.nova.mods.keneng.init.template.Bucket;
 import committee.nova.mods.keneng.init.template.DefItem;
@@ -25,7 +24,7 @@ public class ItemInit
 {
 
     static Map<String, RegistryObject<Item>> regs = new HashMap<>();
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TConst.modid);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Const.modid);
 
     public static void regAll()
     {

@@ -7,7 +7,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.fluids.FluidStack;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.core.item.upgrades.LevelupIce;
 import committee.nova.mods.keneng.core.item.upgrades.LevelupMagma;
 import committee.nova.mods.keneng.core.item.upgrades.LevelupMineral;
@@ -138,7 +138,7 @@ public class QuarryTile extends CmTileMachineRadiused
                         0,
                         Mth.floor(Math.random() * radius - (radius - 1) / 2D)
                 );
-                pos2 = pos2.atY(Mth.randomBetweenInclusive(level.getRandom(), TConst.WORLD_MIN, worldPosition.getY() - 1));
+                pos2 = pos2.atY(Mth.randomBetweenInclusive(level.getRandom(), Const.WORLD_MIN, worldPosition.getY() - 1));
                 BlockState bs = level.getBlockState(pos2);
                 if(canBreak(bs)) {
                     List<ItemStack> ss = bs.getDrops(WorkingHelper.getLoot(level, pos2, inventory.getItem(0)));

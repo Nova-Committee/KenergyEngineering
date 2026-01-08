@@ -116,3 +116,8 @@ run/
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
+/CLAUDE.md
+/src/main/java/committee/nova/mods/keneng/lib/recipe/CLAUDE.md
+/src/main/java/committee/nova/mods/keneng/init/CLAUDE.md
+/src/main/java/committee/nova/mods/keneng/lib/tile/CLAUDE.md
+/src/main/java/committee/nova/mods/keneng/lib/capability/CLAUDE.md

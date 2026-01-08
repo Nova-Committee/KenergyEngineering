@@ -8,10 +8,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.PacketDistributor;
 import net.minecraftforge.network.simple.SimpleChannel;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.core.network.check.PTCCheckPack;
 import committee.nova.mods.keneng.core.network.check.PTSCheckPack;
-import committee.nova.mods.keneng.core.network.packets.*;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Network
@@ -25,7 +24,7 @@ public class Network
 
         instance = NetworkRegistry.newSimpleChannel
                 (
-                        new ResourceLocation(TConst.modid, "ten3_network_handler"),
+                        new ResourceLocation(Const.modid, "ten3_network_handler"),
                         () -> "1.0",
                         (v) -> true,
                         (v) -> true

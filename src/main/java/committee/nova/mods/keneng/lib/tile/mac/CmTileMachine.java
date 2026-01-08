@@ -20,7 +20,7 @@ import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.FluidUtil;
 import net.minecraftforge.fluids.capability.IFluidHandler;
 import net.minecraftforge.items.IItemHandler;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.init.ContInit;
 import committee.nova.mods.keneng.lib.capability.energy.BatteryTile;
 import committee.nova.mods.keneng.lib.capability.energy.EnergyTransferor;
@@ -213,7 +213,7 @@ public abstract class CmTileMachine extends CmTileEntity implements ISlotAccepto
 
     public MutableComponent getDisplayWith()
     {
-        return ComponentHelper.translated(TConst.modid + "." + id);
+        return ComponentHelper.translated(Const.modid + "." + id);
         //TConst.modid + ".level." + levelIn);
     }
 

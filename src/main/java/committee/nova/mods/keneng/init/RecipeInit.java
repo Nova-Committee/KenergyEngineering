@@ -5,7 +5,7 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.lib.recipe.CmSerializer;
 import committee.nova.mods.keneng.lib.recipe.FormsCombinedRecipeSerializer;
 import committee.nova.mods.keneng.lib.recipe.RecipeTypeCm;
@@ -18,8 +18,8 @@ public class RecipeInit
 
     static Map<String, RegistryObject<RecipeSerializer<?>>> regs = new HashMap<>();
     public static Map<String, RegistryObject<RecipeType<?>>> types = new HashMap<>();
-    public static final DeferredRegister<RecipeSerializer<?>> RECIPES_SERIALS = DeferredRegister.create(Registries.RECIPE_SERIALIZER, TConst.modid);
-    public static final DeferredRegister<RecipeType<?>> RECIPES_TYPES = DeferredRegister.create(Registries.RECIPE_TYPE, TConst.modid);
+    public static final DeferredRegister<RecipeSerializer<?>> RECIPES_SERIALS = DeferredRegister.create(Registries.RECIPE_SERIALIZER, Const.modid);
+    public static final DeferredRegister<RecipeType<?>> RECIPES_TYPES = DeferredRegister.create(Registries.RECIPE_TYPE, Const.modid);
 
     public static void regAll()
     {

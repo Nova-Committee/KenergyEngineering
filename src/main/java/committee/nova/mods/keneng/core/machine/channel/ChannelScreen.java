@@ -7,7 +7,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.player.Inventory;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.core.client.ClientHolder;
 import committee.nova.mods.keneng.lib.client.element.ElementBase;
 import committee.nova.mods.keneng.lib.client.element.ElementButton;
@@ -49,10 +49,10 @@ public class ChannelScreen extends CmScreenMachine
             RenderHelper.render(matrixStack, x, y, width, height, textureW, textureH, xOff, yOff, resourceLocation);
             //RenderHelper.renderString(matrixStack, x + 12, y + 2, Mth.color(1f, 1f, 1f),
             //                          isIn ?
-            //                                  (ComponentHelper.translated("ten3.channel.in"))
-            //                                : ComponentHelper.translated("ten3.channel.out"));
+            //                                  (ComponentHelper.translated("keneng.channel.in"))
+            //                                : ComponentHelper.translated("keneng.channel.out"));
             RenderHelper.renderString(matrixStack, x + 6, y + 3, Mth.color(1f, 1f, 1f),
-                                      ComponentHelper.translated("ten3.channel")
+                                      ComponentHelper.translated("keneng.channel")
                                               .append(ComponentHelper.make("#", String.valueOf(index)))
                                               .withStyle(isIn ? ChatFormatting.RED : ChatFormatting.GREEN)
             );
@@ -60,8 +60,8 @@ public class ChannelScreen extends CmScreenMachine
 
         public void addToolTip(List<Component> tooltips)
         {
-            tooltips.add(ComponentHelper.translated("ten3.channel.pos").append(ComponentHelper.make(DisplayHelper.toString(pos))));
-            tooltips.add(ComponentHelper.translated(isIn ? "ten3.channel.in" : "ten3.channel.out"));
+            tooltips.add(ComponentHelper.translated("keneng.channel.pos").append(ComponentHelper.make(DisplayHelper.toString(pos))));
+            tooltips.add(ComponentHelper.translated(isIn ? "keneng.channel.in" : "keneng.channel.out"));
         }
 
         public void locate(int x, int y)
@@ -73,7 +73,7 @@ public class ChannelScreen extends CmScreenMachine
     }
 
     static ResourceLocation handler =
-            new ResourceLocation(TConst.modid, "textures/gui/channel.png");
+            new ResourceLocation(Const.modid, "textures/gui/channel.png");
 
     public ChannelScreen(CmContainerMachine screenContainer, Inventory inv, Component titleIn, String path)
     {

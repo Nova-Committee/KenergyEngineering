@@ -7,8 +7,7 @@ import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import committee.nova.mods.keneng.TConst;
-import committee.nova.mods.keneng.core.block.*;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.core.block.mac.Machine4;
 import committee.nova.mods.keneng.core.block.mac.WateredMachine4;
 import committee.nova.mods.keneng.init.template.FluidBlock;
@@ -21,7 +20,7 @@ public class BlockInit
 {
 
     static Map<String, RegistryObject<Block>> regs = new HashMap<>();
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, TConst.modid);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Const.modid);
 
     public static void regAll()
     {

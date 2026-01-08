@@ -103,20 +103,20 @@ public class ChannelTile extends CmTileMachine implements IClickProcessor
                 BlockEntity be = level.getBlockEntity(last);
                 if(!(be instanceof ChannelTile)) {
                     player.sendSystemMessage(
-                            ComponentHelper.translated("ten3.channel.not_found")
+                            ComponentHelper.translated("keneng.channel.not_found")
                                     .append(DisplayHelper.toString(pos))
                                     .withStyle(ChatFormatting.RED));
                     return false;
                 }
                 Connector.Modes mode = Connector.Modes.parse(mainHand);
-                Component linkMes = ComponentHelper.translated("ten3.channel.bind")
+                Component linkMes = ComponentHelper.translated("keneng.channel.bind")
                         .append(DisplayHelper.toString(last))
-                        .append(ComponentHelper.translated("ten3.channel.to"))
+                        .append(ComponentHelper.translated("keneng.channel.to"))
                         .append(DisplayHelper.toString(pos))
                         .withStyle(ChatFormatting.GREEN);
-                Component remMes = ComponentHelper.translated("ten3.channel.remove")
+                Component remMes = ComponentHelper.translated("keneng.channel.remove")
                         .append(DisplayHelper.toString(last))
-                        .append(ComponentHelper.translated("ten3.channel.from"))
+                        .append(ComponentHelper.translated("keneng.channel.from"))
                         .append(DisplayHelper.toString(pos))
                         .withStyle(ChatFormatting.GREEN);
                 if(mode == Connector.Modes.OUT) {
@@ -144,7 +144,7 @@ public class ChannelTile extends CmTileMachine implements IClickProcessor
                 ItemNBTHelper.setTagD(mainHand, "last", pos.asLong());
                 ItemNBTHelper.setTag(mainHand, "hasLast", 1);
                 player.sendSystemMessage(
-                        ComponentHelper.translated("ten3.channel.first_click")
+                        ComponentHelper.translated("keneng.channel.first_click")
                                 .append(DisplayHelper.toString(pos))
                                 .withStyle(ChatFormatting.GOLD));
             }

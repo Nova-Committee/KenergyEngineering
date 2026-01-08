@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.core.item.ICanFillGroup;
 
 import java.util.HashSet;
@@ -22,7 +22,7 @@ public class TabInit
     public static Set<Supplier<ItemStack>> MACHINES = new HashSet<>();
     public static Set<Supplier<ItemStack>> TOOLS = new HashSet<>();
 
-    public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TConst.modid);
+    public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Const.modid);
 
     public static void fillItems()
     {

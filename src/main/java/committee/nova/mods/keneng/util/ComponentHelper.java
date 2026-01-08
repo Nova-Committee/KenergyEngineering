@@ -3,7 +3,7 @@ package committee.nova.mods.keneng.util;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 
 @OnlyCore
 public class ComponentHelper
@@ -13,7 +13,7 @@ public class ComponentHelper
     public static String getKey(String s)
     {
 
-        return TConst.modid + "." + s;
+        return Const.modid + "." + s;
 
     }
 

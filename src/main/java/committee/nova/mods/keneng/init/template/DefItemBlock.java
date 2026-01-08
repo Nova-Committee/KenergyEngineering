@@ -41,7 +41,7 @@ public class DefItemBlock extends BlockItem implements ICanFillGroup
 
         for(int i = 0; true; i++) {
             //*getPATH!
-            String k = "ten3." + BuiltInRegistries.ITEM.getKey(this).getPath() + "." + i;
+            String k = "keneng." + BuiltInRegistries.ITEM.getKey(this).getPath() + "." + i;
             Component ttc = ComponentHelper.translated(ComponentHelper.GOLD, k);
             if(ttc.getString().equals(k)) {
                 break;
@@ -54,7 +54,7 @@ public class DefItemBlock extends BlockItem implements ICanFillGroup
             tooltip.addAll(list);
         }
         else if(list.size() > 0) {
-            tooltip.add(ComponentHelper.translated(ComponentHelper.GOLD, "ten3.shift"));
+            tooltip.add(ComponentHelper.translated(ComponentHelper.GOLD, "keneng.shift"));
         }
     }
 

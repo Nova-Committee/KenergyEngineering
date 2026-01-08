@@ -6,7 +6,7 @@ import com.google.gson.JsonObject;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.GsonHelper;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +21,7 @@ public class FormsCombinedRecipeSerializer implements CmSerializer<FormsCombined
     public FormsCombinedRecipeSerializer(String reg, int si, int so)
     {
 
-        serializerType = new ResourceLocation(TConst.modid, reg);
+        serializerType = new ResourceLocation(Const.modid, reg);
         sizeInp = si;
         sizeOut = so;
     }

@@ -5,13 +5,12 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import committee.nova.mods.keneng.core.world.OreFeatureGen;
-import committee.nova.mods.keneng.init.*;
 
-@Mod(TConst.modid)
-public class TechnicalEngineering
+@Mod(Const.modid)
+public class KEnergyEngineering
 {
 
-    public TechnicalEngineering()
+    public KEnergyEngineering()
     {
 
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();

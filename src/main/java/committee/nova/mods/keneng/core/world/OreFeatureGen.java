@@ -1,9 +1,9 @@
 package committee.nova.mods.keneng.core.world;
 
 import net.minecraftforge.fml.common.Mod;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 
-@Mod.EventBusSubscriber(modid = TConst.modid, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = Const.modid, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class OreFeatureGen
 {
 

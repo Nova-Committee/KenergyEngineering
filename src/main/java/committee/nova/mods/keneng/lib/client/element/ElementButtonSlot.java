@@ -20,7 +20,7 @@ public class ElementButtonSlot extends ElementButton
     public void addToolTip(List<Component> tooltips)
     {
         if(!state) {
-            tooltips.add(ComponentHelper.translated(ComponentHelper.RED, "ten3.locked_slot"));
+            tooltips.add(ComponentHelper.translated(ComponentHelper.RED, "keneng.locked_slot"));
         }
     }
 

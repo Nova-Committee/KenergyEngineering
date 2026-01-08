@@ -16,7 +16,7 @@ public class TEKeyRegistry
 
     public static final KeyMapping C_CHANGE_MODE =
             new KeyMapping(
-                    "ten3.key.c",
+                    "keneng.key.c",
                     KeyConflictContext.IN_GAME,
                     KeyModifier.NONE,
                     InputConstants.Type.KEYSYM.getOrCreate(GLFW.GLFW_KEY_C),

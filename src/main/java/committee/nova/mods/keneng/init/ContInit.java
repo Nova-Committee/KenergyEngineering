@@ -13,7 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.core.client.IntMap;
 import committee.nova.mods.keneng.core.machine.cell.CellScreen;
 import committee.nova.mods.keneng.core.machine.channel.ChannelScreenEnergy;
@@ -47,7 +47,7 @@ public class ContInit
 
     public static IntMap<String> containerInvOffset = new IntMap<>();
     static Map<String, RegistryObject<MenuType<?>>> regs = new HashMap<>();
-    public static final DeferredRegister<MenuType<?>> CONS = DeferredRegister.create(ForgeRegistries.MENU_TYPES, TConst.modid);
+    public static final DeferredRegister<MenuType<?>> CONS = DeferredRegister.create(ForgeRegistries.MENU_TYPES, Const.modid);
 
     public static void regAll()
     {

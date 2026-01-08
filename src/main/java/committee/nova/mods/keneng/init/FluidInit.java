@@ -15,7 +15,7 @@ import net.minecraftforge.fluids.ForgeFlowingFluid;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.core.block.fluid.ExpTicker;
 import committee.nova.mods.keneng.core.block.fluid.NullFluidTicker;
 
@@ -29,8 +29,8 @@ public class FluidInit
     static Map<String, ForgeFlowingFluid.Properties> props = new HashMap<>();
     static Map<String, RegistryObject<FlowingFluid>> regs1 = new HashMap<>();
     static Map<String, RegistryObject<FlowingFluid>> regs2 = new HashMap<>();
-    public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS, TConst.modid);
-    public static final DeferredRegister<FluidType> FLUID_TYPES = DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, TConst.modid);
+    public static final DeferredRegister<Fluid> FLUIDS = DeferredRegister.create(ForgeRegistries.FLUIDS, Const.modid);
+    public static final DeferredRegister<FluidType> FLUID_TYPES = DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, Const.modid);
 
     public static void regAll()
     {
@@ -57,7 +57,7 @@ public class FluidInit
                 .temperature(temp)
                 .lightLevel(lum)
                 .viscosity(visc)
-                .descriptionId(TConst.modid + "." + id)
+                .descriptionId(Const.modid + "." + id)
                 .canPushEntity(true)
                 .canConvertToSource(false)
                 .canDrown(true)
@@ -85,12 +85,12 @@ public class FluidInit
                     {
                         public ResourceLocation getStillTexture()
                         {
-                            return new ResourceLocation(TConst.modid, "fluid/" + id);
+                            return new ResourceLocation(Const.modid, "fluid/" + id);
                         }
 
                         public ResourceLocation getFlowingTexture()
                         {
-                            return new ResourceLocation(TConst.modid, "fluid/" + id + "_flowing");
+                            return new ResourceLocation(Const.modid, "fluid/" + id + "_flowing");
                         }
                     });
                 }

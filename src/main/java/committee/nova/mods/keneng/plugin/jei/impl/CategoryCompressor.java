@@ -2,7 +2,7 @@ package committee.nova.mods.keneng.plugin.jei.impl;
 
 import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;
 import mezz.jei.api.recipe.RecipeType;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.lib.client.element.ElementBurnLeft;
 import committee.nova.mods.keneng.lib.client.element.ElementProgress;
 import committee.nova.mods.keneng.lib.recipe.FormsCombinedRecipe;
@@ -25,7 +25,7 @@ public class CategoryCompressor extends JeiCmCategory
 
     public void init(FormsCombinedRecipe recipe, IRecipeLayoutBuilder bd)
     {
-        drawer.setHandler(TConst.jeiHandler1);
+        drawer.setHandler(Const.jeiHandler1);
         drawer.add(progress = new ElementProgress(73, 22, 22, 16, 27, 0, handler));
         drawer.add(energy = new ElementBurnLeft(6, 5, 14, 46, 0, 0, handler));
         drawer.add(left = new ElementBurnLeft(42, 23, 13, 13, 14, 0, handler));

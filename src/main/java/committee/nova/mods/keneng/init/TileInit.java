@@ -4,7 +4,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.core.machine.cable.CableTile;
 import committee.nova.mods.keneng.core.machine.cable.CableTileClr;
 import committee.nova.mods.keneng.core.machine.cable.CableTileQtz;
@@ -41,7 +41,7 @@ public class TileInit
 {
 
     static Map<String, RegistryObject<BlockEntityType<? extends CmTileEntity>>> regs = new HashMap<>();
-    public static final DeferredRegister<BlockEntityType<?>> TILES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, TConst.modid);
+    public static final DeferredRegister<BlockEntityType<?>> TILES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, Const.modid);
 
     public static void regAll()
     {

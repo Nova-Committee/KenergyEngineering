@@ -7,7 +7,7 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
-import committee.nova.mods.keneng.TConst;
+import committee.nova.mods.keneng.Const;
 import committee.nova.mods.keneng.init.BlockInit;
 import committee.nova.mods.keneng.init.ContInit;
 import committee.nova.mods.keneng.init.TileInit;
@@ -35,7 +35,7 @@ public abstract class CmTileEntity extends BlockEntity implements MenuProvider
     public CmTileEntity(String key, BlockPos pos, BlockState state)
     {
         super(TileInit.getType(key), pos, state);
-        component = ComponentHelper.translated(TConst.modid + "." + key);
+        component = ComponentHelper.translated(Const.modid + "." + key);
         id = key;
     }
 

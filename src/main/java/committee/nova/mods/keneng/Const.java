@@ -2,7 +2,7 @@ package committee.nova.mods.keneng;
 
 import net.minecraft.resources.ResourceLocation;
 
-public class TConst
+public class Const
 {
 
     public static final String modid = "keneng";
